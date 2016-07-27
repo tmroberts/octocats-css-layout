@@ -45,10 +45,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}   
 
-//* End of reset */
-
+/* End of reset */
 
 body {
   background-color: #fff;
@@ -72,16 +71,6 @@ body {
   width: 100%;
 }
 
-.authors {
-	float: right;
-}
-
-.authors img {
-	border-radius: 5px;
-  width: 15px;
-  vertical-align: middle;
-}
-
 .image-footer {
 	/* outline: 1px solid blue; */
 	border-bottom: solid 1px #dddddd;
@@ -92,7 +81,7 @@ body {
 	padding-top: 4%;
 	padding-bottom: 6%;
   position: relative;
-	vertical-align: middle;
+
 }
 
 .image-number {
@@ -102,7 +91,6 @@ body {
 	margin-left: 0;
   width: 50px;
 }
-
 
 /* How to prepend the hashtag:
 https://www.smashingmagazine.com/2011/07/learning-to-use-the-before-and-after-pseudo-elements-in-css/
@@ -129,19 +117,19 @@ https://www.smashingmagazine.com/2011/07/learning-to-use-the-before-and-after-ps
 	color: #121212;
 	font-weight: bold;
 	text-decoration: none;
-
 }
 
 .authors img {
+	border-radius: 5px;
 	/* outline:1px solid blue; */
-
+	vertical-align: middle;
 	width: 15px;
 }
 
 .authors, .authors li {
   display: inline;
-
 }
+
 /*
 End of CSS
 */
